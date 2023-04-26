@@ -18,10 +18,26 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+.black-contrast-outline {
+  text-shadow: -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white,  
+    -2px 0 0 white,
+    2px 0 0 white,
+    0 2px 0 white,
+    0 -2px 0 white;
+}
+
+.white-contrast-outline {
+  text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black,  
+    -2px 0 0 black,
+    2px 0 0 black,
+    0 2px 0 black,
+    0 -2px 0 black;
 }
